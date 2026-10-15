@@ -1,12 +1,12 @@
 from pathlib import Path
- 
+
 APP_NAME = "Gestão Acadêmica"
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 PHOTOS_DIR = DATA_DIR / "fotos"
 DB_PATH = DATA_DIR / "estudantes.db"
 LEGACY_DB_PATH = BASE_DIR / "estudantes.db"
- 
+
 CURSOS_PADRAO = [
     "Engenharia de Computação",
     "Ciência da Computação",
@@ -14,10 +14,10 @@ CURSOS_PADRAO = [
     "Sistemas de Informação",
     "Redes de Computadores",
 ]
- 
+
 STATUS_ALUNO = ["Ativo", "Trancado", "Formado", "Inativo"]
 SEXOS = ["Masculino", "Feminino", "Outro", "Prefiro não informar"]
- 
+
 # Paleta principal
 NAVY = "#111827"
 NAVY_2 = "#1F2937"
